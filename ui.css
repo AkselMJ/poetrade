@@ -1,0 +1,55 @@
+.columns .row:nth-child(2), .columns .row:nth-child(3) {
+  display: none;
+}
+
+.columns {
+  width: 100%;
+}
+
+.row.content {
+  margin: 0 35px;
+  width: auto;
+  max-width: none;
+}
+
+.search-results {
+  width: 95%;
+}
+
+.search-results tbody {
+  display: table-cell;
+  height: 320px;
+}
+
+.first-line {
+  height: 286px;
+}
+
+#main {
+   max-width: none;
+}
+
+.add_tracking__name {
+  width: 200px !important;
+}
+
+.track_menu {
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.item-close {
+  float: right; 
+  font-size: 1.5em; 
+  margin-left: 5px; 
+  margin-top: -7px; 
+  cursor: pointer;
+} 
+.item
+-new {
+  float: right; 
+  font-size: .8em; 
+  margin-left: 5px; 
+  color: #d82c5a;
+}
