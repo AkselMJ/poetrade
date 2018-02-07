@@ -46,10 +46,25 @@
   margin-top: -7px; 
   cursor: pointer;
 } 
-.item
--new {
+.item-new {
   float: right; 
   font-size: .8em; 
   margin-left: 5px; 
   color: #d82c5a;
+}
+
+.table-stats {
+  display: none !important;
+} 
+
+._item-cell{
+  padding: 0px !important;
+} 
+
+.search-results .item {
+  float: left; 
+}
+
+.large-12.columns > .row:nth(0) {
+  display: none;
 }
